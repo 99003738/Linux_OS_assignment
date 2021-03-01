@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <pthread.h>
-#include <stdlib.h>
-
+ #include "common.h"
 volatile int volatile buffer[16]; volatile int addhere;
 volatile int removehere;
 void clearbuffer()

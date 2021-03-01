@@ -1,10 +1,4 @@
-#include <stdio.h> 
-#include <string.h> 
-#include <fcntl.h> 
-#include <sys/stat.h> 
-#include <sys/types.h> 
-#include <unistd.h> 
-  
+ #include "common.h"
 int main() 
 { 
     int file_d; 
