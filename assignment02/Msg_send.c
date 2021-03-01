@@ -1,6 +1,4 @@
-#include <stdio.h> 
-#include <sys/ipc.h> 
-#include <sys/msg.h> 
+#include"common.h" 
 #define MAX 10 
 struct msg_temp_buffer { 
 	long msg_data; 

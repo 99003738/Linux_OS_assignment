@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <sys/stat.h>
+#include "common.h"
 #include <mqueue.h>
 #define SERVER_QUEUE_NAME   "/sender-reciver"
 #define QUEUE_PERMISSIONS 0660
